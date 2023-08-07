@@ -1,0 +1,299 @@
+{
+    "artists": {
+      "1": {
+        "id": "1",
+        "name": "Arijit Singh",
+        "image": "/Images/arijit.webp",
+        "artist_song_ids":["1","2","3","4","5","6","7"]
+      },
+      "2": {
+        "id": "2",
+        "name": "Shreya Ghosal",
+        "image": "/Images/shreyaghosal.webp",
+        "songs": {
+          
+        }
+      },
+      "3": {
+        "id": "3",
+        "name": "Sonu Nigam",
+        "image": "/Images/sonunigam.avif",
+        "songs": {
+          "song1": {
+            "image": "/Images/Sonu Nigam/aja soniye.jpg",
+            "name": "Aja Soniye",
+            "song": "/Songs/Sonu Nigam/aja sonie.mp3",
+            "duration": "4:58",
+            "liked": "false"
+          },
+          "song2": {
+            "image": "/Images/Sonu Nigam/dil dooba.jpg",
+            "name": "Dil Dooba",
+            "song": "/Songs/Sonu Nigam/Dil Dooba.mp3",
+            "duration": "3:51",
+            "liked": "false"
+          },
+          "song3": {
+            "image": "/Images/Sonu Nigam/MHN.jpg",
+            "name": "Tumse Milke Dil Ka",
+            "song": "/Songs/Sonu Nigam/TMDK.mp3",
+            "duration": "5:12",
+            "liked": "false"
+          },
+          "song4": {
+            "image": "/Images/Sonu Nigam/OMO.jpg",
+            "name": "Main Agar Kahoon",
+            "song": "/Songs/Sonu Nigam/MAK.mp3",
+            "duration": "5:59",
+            "liked": "false"
+          }
+        }
+      },
+      "4": {
+        "id": "4",
+        "name": "Jubit Nautiyal",
+        "image": "/Images/jubit.jpg",
+        "songs": {
+          "song1": {
+            "image": "/Images/Jubit Nautiyal/jaadui.jpg",
+            "name": "Jaadui",
+            "song": "/Songs/Jubit Nautiyal/Jaadui.mp3",
+            "duration": "3:47",
+            "liked": "false"
+          },
+          "song2": {
+            "image": "/Images/Jubit Nautiyal/HKHR.jpg",
+            "name": "Hare Krishna Hare Ram",
+            "song": "/Songs/Jubit Nautiyal/HKHR.mp3",
+            "duration": "3:47",
+            "liked": "false"
+          },
+          "song3": {
+            "image": "/Images/Jubit Nautiyal/Manike.jpg",
+            "name": "Manike Maage Hithe",
+            "song": "/Songs/Jubit Nautiyal/Manike.mp3",
+            "duration": "3:47",
+            "liked": "false"
+          },
+          "song4": {
+            "image": "/Images/Jubit Nautiyal/MMKB.jpg",
+            "name": "Meri Maa Ke Barabar Koi Nhi",
+            "song": "/Songs/Jubit Nautiyal/MMKB.mp3",
+            "duration": "3:47",
+            "liked": "false"
+          }
+        }
+      },
+  
+      "6": {
+        "id": "6",
+        "name": "Atif Aslam",
+        "image": "/Images/atifaslam.jpg",
+        "songs": {
+          "song1": {
+            "image": "/Images/Atif Aslam/DDG.jpg",
+            "name": "Dil Diyaan Gallan",
+            "song": "/Songs/Atif Aslam/DDG.mp3",
+            "duration": "3:47",
+            "liked": "false"
+          },
+          "song2": {
+            "image": "/Images/Atif Aslam/MRS.jpg",
+            "name": "Main Rang Sharbatoon Ka",
+            "song": "/Songs/Atif Aslam/MRS.mp3",
+            "duration": "3:47",
+            "liked": "false"
+          },
+          "song3": {
+            "image": "/Images/Atif Aslam/paniyon sa.jpg",
+            "name": "Paniyon Sa",
+            "song": "/Songs/Atif Aslam/paniyon sa.mp3",
+            "duration": "3:47",
+            "liked": "false"
+          },
+          "song4": {
+            "image": "/Images/Atif Aslam/tera hua.jpg",
+            "name": "Tera Hua",
+            "song": "/Songs/Atif Aslam/Tera Hua.mp3",
+            "duration": "3:47",
+            "liked": "false"
+          }
+        }
+      },
+      "7": {
+        "id": "7",
+        "name": "Badshah",
+        "image": "/Images/badshah.jpg",
+        "songs": {
+          "song1": {
+            "image": "/Images/Badshah/Bawla.jpg",
+            "name": "Baawla",
+            "song": "/Songs/Badshah/Baawla.mp3",
+            "duration": "3:47",
+            "liked": "false"
+          },
+          "song2": {
+            "image": "/Images/Badshah/IVibe.jpg",
+            "name": "Issa Vibe",
+            "song": "/Songs/Badshah/IVibe.mp3",
+            "duration": "3:47",
+            "liked": "false"
+          },
+          "song3": {
+            "image": "/Images/Badshah/Kamaal.jpg",
+            "name": "Kamaal",
+            "song": "/Songs/Badshah/Kamaal.mp3",
+            "duration": "3:47",
+            "liked": "false"
+          },
+          "song4": {
+            "image": "/Images/Badshah/Sajna.jpg",
+            "name": "Sajna",
+            "song": "/Songs/Badshah/Sajna.mp3",
+            "duration": "3:47",
+            "liked": "false"
+          }
+        }
+      },
+      "8": {
+        "id": "8",
+        "name": "Sidhu Moose Wala",
+        "image": "/Images/Sidhu_Moose_Wala.jpg",
+        "songs": {
+          "song1": {
+            "image": "/Images/ATSH.jpg",
+            "name": "Agar Tum Saath Ho",
+            "song": "/Songs/Arijit Singh/ATSH.mp3",
+            "duration": "5:41",
+            "liked": "false"
+          },
+          "song2": {
+            "image": "/Images/ABL.jpg",
+            "name": "Apna Bana Le",
+            "song": "/Songs/Arijit Singh/ABL.mp3",
+            "duration": "3:24",
+            "liked": "false"
+          },
+          "song3": {
+            "image": "/Images/jaadui.jpg",
+            "name": "Jaadui",
+            "song": "/Songs/Arijit Singh/Jaadui.mp3",
+            "duration": "3:47",
+            "liked": "false"
+          },
+          "song4": {
+            "image": "/Images/OBedardiyan.jpg",
+            "name": "O Bedardiya",
+            "song": "/Songs/Arijit Singh/OB.mp3",
+            "duration": "2:51",
+            "liked": "false"
+          }
+        }
+      },
+      "9": {
+        "id": "9",
+        "name": "Guru Randhawa",
+        "image": "/Images/guru_randhawa.jpg",
+        "songs": {
+          "song1": {
+            "image": "/Images/ATSH.jpg",
+            "name": "Agar Tum Saath Ho",
+            "song": "/Songs/Arijit Singh/ATSH.mp3",
+            "duration": "5:41",
+            "liked": "false"
+          },
+          "song2": {
+            "image": "/Images/ABL.jpg",
+            "name": "Apna Bana Le",
+            "song": "/Songs/Arijit Singh/ABL.mp3",
+            "duration": "3:24",
+            "liked": "false"
+          },
+          "song3": {
+            "image": "/Images/jaadui.jpg",
+            "name": "Jaadui",
+            "song": "/Songs/Arijit Singh/Jaadui.mp3",
+            "duration": "3:47",
+            "liked": "false"
+          },
+          "song4": {
+            "image": "/Images/OBedardiyan.jpg",
+            "name": "O Bedardiya",
+            "song": "/Songs/Arijit Singh/OB.mp3",
+            "duration": "2:51",
+            "liked": "false"
+          }
+        }
+      },
+      "10": {
+        "id": "10",
+        "name": "Hardy Sandhu",
+        "image": "/Images/Hardy_Sandhu.jpg",
+        "songs": {
+          "song1": {
+            "image": "/Images/ATSH.jpg",
+            "name": "Agar Tum Saath Ho",
+            "song": "/Songs/Arijit Singh/ATSH.mp3",
+            "duration": "5:41",
+            "liked": "false"
+          },
+          "song2": {
+            "image": "/Images/ABL.jpg",
+            "name": "Apna Bana Le",
+            "song": "/Songs/Arijit Singh/ABL.mp3",
+            "duration": "3:24",
+            "liked": "false"
+          },
+          "song3": {
+            "image": "/Images/jaadui.jpg",
+            "name": "Jaadui",
+            "song": "/Songs/Arijit Singh/Jaadui.mp3",
+            "duration": "3:47",
+            "liked": "false"
+          },
+          "song4": {
+            "image": "/Images/OBedardiyan.jpg",
+            "name": "O Bedardiya",
+            "song": "/Songs/Arijit Singh/OB.mp3",
+            "duration": "2:51",
+            "liked": "false"
+          }
+        }
+      },
+      "11": {
+        "id": "11",
+        "name": "Honey Singh",
+        "image": "/Images/honey-singh.jpg",
+        "songs": {
+          "song1": {
+            "image": "/Images/ATSH.jpg",
+            "name": "Agar Tum Saath Ho",
+            "song": "/Songs/Arijit Singh/ATSH.mp3",
+            "duration": "5:41",
+            "liked": "false"
+          },
+          "song2": {
+            "image": "/Images/ABL.jpg",
+            "name": "Apna Bana Le",
+            "song": "/Songs/Arijit Singh/ABL.mp3",
+            "duration": "3:24",
+            "liked": "false"
+          },
+          "song3": {
+            "image": "/Images/jaadui.jpg",
+            "name": "Jaadui",
+            "song": "/Songs/Arijit Singh/Jaadui.mp3",
+            "duration": "3:47",
+            "liked": "false"
+          },
+          "song4": {
+            "image": "/Images/OBedardiyan.jpg",
+            "name": "O Bedardiya",
+            "song": "/Songs/Arijit Singh/OB.mp3",
+            "duration": "2:51",
+            "liked": "false"
+          }
+        }
+      }
+    }
+  }
