@@ -1,9 +1,12 @@
 import React from "react";
 import "../SCSS/Home.scss";
-import data from "../Data.json";
-import { Link } from "react-router-dom";
+import data from "../data.json";
+import { Link  } from "react-router-dom";
+
 
 export default function Home() {
+  // let history = useHistory();
+  // history.push("/LikedSongs");
   const rightSrl = () => {
     let element = document.querySelector("#artists");
     element.scrollLeft += element.offsetWidth;
@@ -14,12 +17,13 @@ export default function Home() {
     element.scrollLeft -= element.offsetWidth;
   };
 
-  const artistsArray = Object.values(data.artists);
+  const artistsArray = Object.values(data.Artists);
 
   return (
     <div id="home">
       <nav>
         <div>
+          <Link to="/SearchSongs">
           <input
             type="text"
             className="searchbar"
@@ -33,6 +37,7 @@ export default function Home() {
               searchbar.style.border = "2px solid white";
             }}
           />
+          </Link>
         </div>
         <div className="profile">
           <i
@@ -50,14 +55,13 @@ export default function Home() {
               style={{ color: "#ffffff", fontSize: "35px" }}
             ></i>
           </div>
-
           <div id="artists">
             {artistsArray.map((element) => {
               return (
-                <Link to={`/artist/:${element.id}`} style={{textDecoration:"none"}}>
+                <Link to={`/artist/:${element.Id}`} style={{textDecoration:"none"}}>
                   <div style={{ cursor: "pointer" }}>
-                    <img src={element.image} alt={element.name} id="artist" />
-                    <p style={{ paddingTop: "5px" }}>{element.name}</p>
+                    <img src={element.Image} alt={element.Name} id="artist" />
+                    <p style={{ paddingTop: "5px" }}>{element.Name}</p>
                   </div>
                 </Link>
               );

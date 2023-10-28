@@ -156,3 +156,22 @@
     color:white;
     opacity: 75%;
 }
+
+#liked_heading_content_if{
+    height:200px;
+    width:200px;
+    margin-left:2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#liked_heading_content_else{
+    height:200px;
+    width:200px;
+    margin-left:2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
